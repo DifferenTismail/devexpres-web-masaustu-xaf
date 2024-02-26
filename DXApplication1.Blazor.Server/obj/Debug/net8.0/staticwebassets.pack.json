@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\xaf\\DXApplication1\\DXApplication1.Blazor.Server\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\xaf\\DXApplication1\\DXApplication1.Blazor.Server\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\xaf\\DXApplication1\\DXApplication1.Blazor.Server\\wwwroot\\images\\Logo.svg",
+      "PackagePath": "staticwebassets\\images\\Logo.svg"
+    },
+    {
+      "Id": "C:\\xaf\\DXApplication1\\DXApplication1.Blazor.Server\\wwwroot\\images\\SplashScreen.svg",
+      "PackagePath": "staticwebassets\\images\\SplashScreen.svg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DXApplication1.Blazor.Server.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.DXApplication1.Blazor.Server.props",
+      "PackagePath": "build\\DXApplication1.Blazor.Server.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.DXApplication1.Blazor.Server.props",
+      "PackagePath": "buildMultiTargeting\\DXApplication1.Blazor.Server.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.DXApplication1.Blazor.Server.props",
+      "PackagePath": "buildTransitive\\DXApplication1.Blazor.Server.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
