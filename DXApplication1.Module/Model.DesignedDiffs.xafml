@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="DXApplication1">
+  <BOModel>
+    <Class Name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyUser" Caption="Base User" />
+    <Class Name="DXApplication1.Module.BusinessObjects.ProjectTask">
+      <AppearanceRules>
+        <AppearanceRule Id="StatusCompleted" FontStyle="Strikeout" FontColor="0, 255, 0" Criteria="[Status] = ##Enum#DXApplication1.Module.BusinessObjects.Status,Completed#" TargetItems="*" IsNewNode="True" />
+        <AppearanceRule Id="StatusDeferedRed" BackColor="255, 192, 192" TargetItems="*" Criteria="[Status] = ##Enum#DXApplication1.Module.BusinessObjects.Status,Deferred#" IsNewNode="True" />
+        <AppearanceRule Id="StatusTodoYellow" BackColor="255, 255, 128" TargetItems="*" Criteria="[Status] = ##Enum#DXApplication1.Module.BusinessObjects.Status,ToDo#" IsNewNode="True" />
+      </AppearanceRules>
+    </Class>
+  </BOModel>
+  <NavigationItems>
+    <Items>
+      <Item Id="Default">
+        <Items>
+          <Item Id="Customer_ListView" ViewId="Customer_ListView" ObjectKey="" IsNewNode="True" Removed="True" />
+          <Item Id="Employee_ListView" Removed="True" />
+          <Item Id="Project_ListView" Removed="True" />
+          <Item Id="ProjectTask_ListView" Removed="True" />
+          <Item Id="Testimonial_ListView" ViewId="Testimonial_ListView" ObjectKey="" IsNewNode="True" Removed="True" />
+        </Items>
+      </Item>
+      <Item Id="Project" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="Employee_ListView" ViewId="Employee_ListView" ObjectKey="" IsNewNode="True" />
+          <Item Id="Project_ListView" ViewId="Project_ListView" ObjectKey="" IsNewNode="True" />
+          <Item Id="ProjectTask_ListView" ViewId="ProjectTask_ListView" ObjectKey="" IsNewNode="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <Options>
+    <LayoutManagerOptions RequiredFieldMark="*" />
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="23.2.4.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <ListView Id="ApplicationUser_ListView" Caption="Users" />
+  </Views>
+</Application>

@@ -1,0 +1,12 @@
+C:\xaf\DXApplication1\DXApplication1.Module\bin\Debug\net8.0\DXApplication1.Module.deps.json
+C:\xaf\DXApplication1\DXApplication1.Module\bin\Debug\net8.0\DXApplication1.Module.dll
+C:\xaf\DXApplication1\DXApplication1.Module\bin\Debug\net8.0\DXApplication1.Module.pdb
+C:\xaf\DXApplication1\DXApplication1.Module\obj\Debug\net8.0\DXApplication1.Module.csproj.AssemblyReference.cache
+C:\xaf\DXApplication1\DXApplication1.Module\obj\Debug\net8.0\DXApplication1.Module.GeneratedMSBuildEditorConfig.editorconfig
+C:\xaf\DXApplication1\DXApplication1.Module\obj\Debug\net8.0\DXApplication1.Module.AssemblyInfoInputs.cache
+C:\xaf\DXApplication1\DXApplication1.Module\obj\Debug\net8.0\DXApplication1.Module.AssemblyInfo.cs
+C:\xaf\DXApplication1\DXApplication1.Module\obj\Debug\net8.0\DXApplication1.Module.csproj.CoreCompileInputs.cache
+C:\xaf\DXApplication1\DXApplication1.Module\obj\Debug\net8.0\DXApplication1.Module.dll
+C:\xaf\DXApplication1\DXApplication1.Module\obj\Debug\net8.0\refint\DXApplication1.Module.dll
+C:\xaf\DXApplication1\DXApplication1.Module\obj\Debug\net8.0\DXApplication1.Module.pdb
+C:\xaf\DXApplication1\DXApplication1.Module\obj\Debug\net8.0\ref\DXApplication1.Module.dll
